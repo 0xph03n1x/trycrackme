@@ -1,0 +1,33 @@
+section .text
+global _start
+
+MOV EAX, 38587898
+
+
+SHL EAX,1
+SHL EAX,1
+SHR EAX,1
+SHL EAX,1
+ROR EAX,1
+SHL EAX,1
+SHR EAX,1
+ROR EAX,1
+SHL EAX,1
+SHL EAX,1
+ROL EAX,1
+SHR EAX,1
+SHR EAX,1
+SHR EAX,1
+SHL EAX,1
+ROR EAX,1
+SHL EAX,1
+
+
+CMP EAX, 38587898
+JNE WrongAnswer
+
+GoodJob:
+	ret
+
+WrongAnswer:
+	ret

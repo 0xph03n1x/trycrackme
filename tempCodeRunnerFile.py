@@ -1,0 +1,1 @@
+base64.b64decode(flag_bytes)

@@ -2,7 +2,7 @@
 
 int main(){
     char your_input[9] = "Snowballs";
-    // char test[9];
+    // char flag[9];
 
     int j, i = 0;
     char Baby[9], DAD[] = "zlBnSaoO24GeliI", MOM[] = "dYbWqlL8wsSk5jfduU8";
@@ -28,20 +28,17 @@ int main(){
     {
         printf("Wrong Answer");
     }
-    // test[0] = MOM[9]; 
-    // test[1] = MOM[5]; 
-    // test[2] = DAD[1]; 
-    // test[3] = DAD[5]; 
-    // test[4] = MOM[2]; 
-    // test[5] = MOM[8]; 
-    // test[6] = DAD[6]; 
-    // test[7] = DAD[3];
+    // flag[0] = MOM[9]; 
+    // flag[1] = MOM[5]; 
+    // flag[2] = DAD[1]; 
+    // flag[3] = DAD[5]; 
+    // flag[4] = MOM[2]; 
+    // flag[5] = MOM[8]; 
+    // flag[6] = DAD[6]; 
+    // flag[7] = DAD[3];
 
-    // printf("\n%s\n", test);
+    // printf("\n%s\n", flag);
     // Results - sllabwon (reverse in python [::-1] give nowballs)
     // First letter should be - S
     // 
 }
-
-// Solution
-// S

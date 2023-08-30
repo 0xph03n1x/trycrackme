@@ -1,6 +1,6 @@
 import base64
 
-your_input = "OCwmMDYnMCE="
+your_input = ""
 
 def decode(x):
     decoded = base64.b64decode(x)
@@ -20,8 +20,8 @@ def flag(x):
     
     flag_bytes = password.encode('utf-8')
     flag = base64.b64encode(flag_bytes)
-    print(password)
-    print(flag)
+    
+    print(f"Flag: {flag}")
 
 try:
    if decode(your_input) == "mysecret":

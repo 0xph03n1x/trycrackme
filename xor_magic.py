@@ -1,4 +1,4 @@
-your_input = "TryXorMeIfYouCan"
+your_input = ""
 
 arr = [23,49,58,27,44,49,14,38,10,37,26,44,54,0,34,45]
 c = 0
@@ -6,14 +6,16 @@ c = 0
 # X = 88
 # o = 111
 # r = 114
-test = ""
+flag = ""
 
 for i in range(0, 255):
     for j in range(len(arr)):
-        test += (chr(i ^ arr[j]))
-    if "Xor" in test:
-        print(f"Correct result is: {test}")
-    test = ""
+        flag += (chr(i ^ arr[j]))
+    print(flag)
+    if "Xor" in flag:
+        print(f"Correct result is: {flag}")
+        break
+    flag = ""
 
 if len(your_input) != 16 or "Xor" not in your_input:
     exit("Wrong Input")
